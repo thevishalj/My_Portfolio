@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="Login.css">
+</head>
+
+<body>
+    <div class = "header-footer"> 
+        <header>
+            <div> <h1 style = "color: blue; padding: 0%; text-align: center; font-size: xx-large;"> Login</h1> </div>
+            
+            <h3 style = "font-size: larger; text-align: center"> Login to verify you are Vishal or his marketing agent </h3>
+        </header>
+    </div>
+    <hr/>
+    <div style = "text-align: center; font-size: large;">
+        <form action = "test.java">
+            <input type="text" placeholder="Username" class="login-input">
+            </br></br>
+            <input type = "password" placeholder = "Passward" class="login-input">
+
+            </br></br>
+            <label for = "100">
+                <input type = "radio" value = "Vishal" name = "class" id = "100"> Vishal
+            </label>
+            <label for = "101">
+                <input type = "radio" value = "Agent" name = "class" id = "101"> Agent
+            </label>
+
+            </br>
+            <p> Select the Environment you want to login to - </p>
+            <select name = "Portal Environment" class = "drop-down">
+                <option value = "Prod"> Production </option>
+                <option value = "Dev"> Devloper </option>
+                <option value = "Testing"> Testing </option>
+            </select>
+
+            </br></br>
+
+            <label for = "T&C1" class = "TC">
+                <input type = "checkbox" value = "T&C1" name = "class" id = "102"> I Accept all the terms and Conditions
+            </label>
+            <br>
+            <label for = "T&C2" class = "TC">
+                <input type = "checkbox" value = "T&C2" name = "class" id = "102"> I pledge to protect website's data
+            </label>
+
+            </br></br>
+
+            <input type="submit" value = "Login">
+
+            <!-- Different way to do the same this 
+                <button type = "submit" href = "Education.html">
+                Login
+            <   /button> -->
+
+            </br></br>
+
+        </form>
+    </div>
+
+    <footer class = "header-footer">
+        <hr/>
+        <h3 class = "footer"> Not an autherised user?</h3>
+        <h4 class = "footer"> <a href = "/index.html" > Go back Home </a></h4>
+    </footer>
+</body>
+</html>
