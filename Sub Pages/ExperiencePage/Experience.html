@@ -9,5 +9,25 @@
     <h1> Experience </h1>
     <p> Vishal's work Experience</p>
     <br/>
+
+
+    <form name = "mbox">
+        <fieldset style="width: 400px; height: 100px; border: 2px solid lightgrey; padding-left: 1rem;box-sizing: border-box;">
+          <legend style="padding: 0 1rem;width: 25%; border-bottom: lightgray;"> <h5> Mix rates</h5></legend>
+           <table>
+           <td> <button id="generate" style="width:80px; " (click)="showMixRatesDialog()"
+              class="btn btn-primary btn-md">
+              <span>Upload</span>
+            </button></td>
+         <td><p-button label="Download" style="margin: 5px;" tooltipPosition="top" [disabled]="disableMixRateControls()"
+           pTooltip="Download Mix Rate Controls" (click)="downloadMixRateControls($event)"></p-button>
+         </td> 
+             <td> <div *ngIf = showMPMElements >
+                 <p-button   [disabled] = "totalPlantVolume==='' || totalPlantVolume === null || +totalPlantVolume===0" (click)="sendMPMData()" tooltipPosition="top" label="Re Calculate MPM" 
+                 pTooltip="Re Calculate MPM" styleClass="p-button-lg" ></p-button>  
+              </div></td> 
+           </table>   
+        </fieldset>
+  </form> 
 </body>
 </html>

@@ -1,12 +1,36 @@
-/* .header-footer{
-    background-color: rgb(81, 110, 114);
-    padding: 0%;
-} */
+#login-header{
+  color: #282a35; 
+  font-size: 29px; 
+  font-weight: 700; 
+  padding-left: 4%;
+  text-decoration: none; 
+}
 
-/* .login-box {
-    text-align: center;
-    font-size: large;
-} */
+#Request_button {
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+  padding: 10px 20px;
+  background-color: #eceff3;
+}
+
+#login-box{
+  width: 700px; 
+  border: 1px solid #e4e4e4; 
+  border-radius: 20px; 
+  margin: auto;
+}
+
+#login-text{
+  font-weight: bold; 
+  padding-top: 3%; color: #3477e2; 
+  font-family: Source Sans Pro; 
+  font-size: 20px;
+}
 
 .login-input {
     padding: 10px;
@@ -17,27 +41,40 @@
     text-align: center;
   }
 
-  .footer {
-    font-family: ui-monospace; 
-    font-size: larger; 
-    text-align: center;
-  }
+.drop-down {
+  border: 1px solid #ccc;
+  padding: 6px;
+  border-radius: 10px;
+  font-size: 15px;
+}
 
-  .drop-down {
-    border: 2px solid #ccc;
-    padding: 10px;
-    border-radius: 10px;
-    font-size: 15px;
-  }
+.TC {
+  font-size: 19px;
+  font-family: Source Sans Pro;
+}
 
-  .Login-button {
-    font-size: large;
-    border-radius: 5px;
-    border: 2px solid #b9b9b9;
-    background-color: #b9b9b9;
-  }
+.Login-button {
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 48px;
+  font-family: Source Sans Pro,sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  background-color: #4285F4;
+  padding: 12px 20px;
+  width: 90%;
+}
 
-  .TC {
-    padding: 10px;
-    font-size: 20px;
-  }
+.divider{
+  border-top: 1px solid #d1cfcf;
+  width: 700px;
+  text-align: center;
+}
+
+.footer {
+  font-family: ui-monospace; 
+  font-size: 15px; 
+  text-align: center;
+  font-family: Source Sans Pro;
+}
