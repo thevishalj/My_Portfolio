@@ -11,3 +11,6 @@ Here I am practicing my Frontend Knowledge.
     Added "Request Access" Button.
     Added logo on header and made it clickable.
     Updated Login button.
+7th September - After a whole month without practice today I restarted with Revision.
+    Worked on Home Page's header.
+    UI and refactoring changes Login Page.

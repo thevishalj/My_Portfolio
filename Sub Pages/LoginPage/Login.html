@@ -38,36 +38,44 @@
                 <input type = "password" placeholder = "Passward" class="login-input">
     
                 </br></br>
-                <label for = "100">
-                    <input type = "radio" value = "Vishal" name = "class" id = "100"> Vishal
-                </label>
-                <label for = "101">
-                    <input type = "radio" value = "Developer" name = "class" id = "101"> Developer
-                </label>
+
+                <div id = "other"> 
+                    <div>
+                        <label for = "100">
+                            <input type = "radio" value = "Vishal" name = "class" id = "100"> Vishal
+                        </label>
+                        <label for = "101">
+                            <input type = "radio" value = "Developer" name = "class" id = "101"> Developer
+                        </label>
+                    </div>
+                        
+                    <div>
+                        <p> Select the Environment you want to login to - </p>
+                        <select name = "Portal Environment" class = "drop-down">
+                            <option value = "Prod"> Production </option>
+                            <option value = "Testing"> Testing </option>
+                        </select>
+                    </div>
+                    
+                    </br>
+                    
+                    <div>
+                        <label for = "T&C1">
+                            <input type = "checkbox" value = "T&C1" name = "class" id = "T&C1"> I Accept all the terms and Conditions
+                        </label>
+                        </br>
+                            <input type = "checkbox" value = "T&C2" name = "class" id = "T&C2"> I know my usage will be monitored
+                        </label>
+                    </div>
+                </div>
     
                 </br>
-                <p> Select the Environment you want to login to - </p>
-                <select name = "Portal Environment" class = "drop-down">
-                    <option value = "Prod"> Production </option>
-                    <option value = "Testing"> Testing </option>
-                </select>
-    
-                </br></br>
-    
-                <label for = "T&C1" class = "TC">
-                    <input type = "checkbox" value = "T&C1" name = "class" id = "102"> I Accept all the terms and Conditions
-                </label>
-                <br>
-                <label for = "T&C2" class = "TC">
-                    <input type = "checkbox" value = "T&C2" name = "class" id = "102"> I pledge to protect website's data
-                </label>
-    
-                </br></br>
-    
-                <input type="submit" value = "Login" class = "Login-button">
-    
-                </br></br>
-    
+                
+                <div>
+                    <input type="submit" value = "Login" class = "Login-button">
+                </div>
+
+                </br>
             </form>
         </div>
     </div>

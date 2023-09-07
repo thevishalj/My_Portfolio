@@ -15,12 +15,12 @@
   font-weight: 600;
   color: black;
   padding: 10px 20px;
-  background-color: #eceff3;
+  background-color: #e3e5e9;
 }
 
 #login-box{
   width: 700px; 
-  border: 1px solid #e4e4e4; 
+  border: 2px solid #e4e4e4; 
   border-radius: 20px; 
   margin: auto;
 }
@@ -29,7 +29,7 @@
   font-weight: bold; 
   padding-top: 3%; color: #3477e2; 
   font-family: Source Sans Pro; 
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .login-input {
@@ -46,11 +46,12 @@
   padding: 6px;
   border-radius: 10px;
   font-size: 15px;
+  font-family: Verdana, sans-serif;
 }
 
-.TC {
-  font-size: 19px;
-  font-family: Source Sans Pro;
+#other{
+  font-size: 16px;
+  font-family: Verdana, sans-serif;
 }
 
 .Login-button {
@@ -63,7 +64,7 @@
   color: white;
   background-color: #4285F4;
   padding: 12px 20px;
-  width: 90%;
+  width: 75%;
 }
 
 .divider{
@@ -73,8 +74,7 @@
 }
 
 .footer {
-  font-family: ui-monospace; 
   font-size: 15px; 
   text-align: center;
-  font-family: Source Sans Pro;
+  font-family: Verdana, sans-serif;
 }
