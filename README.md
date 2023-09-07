@@ -1,25 +1,23 @@
 # My_Portfolio
- 
-Started on July 24, 2023
 
-Here I am practicing my Frontend Knowledge.
+### Bringing my frontend skills to life, one line of code at a time.
 
-31st July - Created basic layout using HTML alone.
+### "Every master was once a disaster" - T. Harv Eker
 
-3rd August - Added Basic CSS to the project.
+######  -- Started on July 24, 2023
 
-5th August - Made a lot of changes in Login Page.
+**31st July -** Created basic layout using HTML alone.
+
+**3rd August -** Added Basic CSS to the project.
+
+**5th August -** Made a lot of changes in Login Page.
 
     Created header table with different width.
-
     Added "Request Access" Button.
-
     Added logo on header and made it clickable.
-
     Updated Login button.
 
-7th September - After a whole month without practice today I restarted with Revision.
+**7th September -** After an entire month without practicing, today marks the day I reignite my progress.
 
     Worked on Home Page's header.
-    
-    UI and refactoring changes Login Page.
+    UI and refactoring changes in Login Page.
