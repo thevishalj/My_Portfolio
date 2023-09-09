@@ -21,3 +21,9 @@
 
     Worked on Home Page's header.
     UI and refactoring changes in Login Page.
+
+**9th September -** Completed JS course and started implementing that in project.
+
+    Added a new page "Calculator", following a YTer to create a calculator using HTML, CSS, JS.
+    Created whole HTML blueprint on my own.
+    
