@@ -26,4 +26,6 @@
 
     Added a new page "Calculator", following a YTer to create a calculator using HTML, CSS, JS.
     Created whole HTML blueprint on my own.
-    
+    Showed some desingning skills and did a good work.
+
+**11th September -** Started adding JS to the Calculator Project.
