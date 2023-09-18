@@ -29,3 +29,5 @@
     Showed some desingning skills and did a good work.
 
 **11th September -** Started adding JS to the Calculator Project.
+
+**18th September -** Added JS and got a basic calculator's functions working.
