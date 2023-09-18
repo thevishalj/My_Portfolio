@@ -32,8 +32,8 @@ Array.from(buttons).forEach((button)=>{
             string = string + e.target.innerHTML;
             document.querySelector('input').value = string;
         }
-    }catch{
-        document.querySelector('intput').value = 'ERR';
-    }
+    } catch {
+        document.querySelector('input').value = 'ERR';
+      }
     })
-})
+  })
